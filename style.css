@@ -3,7 +3,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: #56abfb;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
@@ -18,7 +18,10 @@ html, body {
 
 
 a {
-  color: #0080ff;
+  text-decoration:none;
+  color: #ffffff;
+  margin:10px;
+  font-size:25px;
 }
 
 
@@ -53,4 +56,14 @@ h1 {
 
 img {
   width: 400px;
+  border:2px solid black;
+}
+
+.navBar{
+  display:flex;
+  justify-content:space-around;
+}
+
+a:hover{
+  color:pink;
 }
